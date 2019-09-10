@@ -66,7 +66,7 @@ URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 
 
 ### Qlik Sense Dashboard
-QlikSense_Dashboard/QlikSense_Amount_Details.png
+![Summary](QlikSense_Dashboard/QlikSense_Summary.png)
 
 
 ### Tableau Dashboard
