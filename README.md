@@ -1,9 +1,9 @@
 ## NYC Taxi Data Visualization Using Qlik Sense & Tableau
-- Author: Sekyung Na
-- Link to my tableau Workbook: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
-- LinkedIn: https://www.linkedin.com/in/sekyung-na-95500a5a/
+Author: Sekyung Na
+Link to my tableau Workbook: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
+LinkedIn: https://www.linkedin.com/in/sekyung-na-95500a5a/
 
-  I would love to hear any opinion about my analysis! Please message me via LinkedIn if you have any questions.
+I would love to hear any opinion about my analysis! Please message me via LinkedIn if you have any questions :)!
 
 
 ### Summary 
