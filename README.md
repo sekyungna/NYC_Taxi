@@ -58,10 +58,15 @@ The python script for this is attached with the name, "PysparkCalculationScript.
 
 ### Extract Latitude & Longitude from the Location CSV File 
 At first, I used Geocode for extracting latitude & longitude data from the zone.csv.
-Script: 
+Script attached: GeoCodingTaxi.py
+
+However, some cities returned wrong latitude & longitude information due to the error caused by city name (City separated with south & north etc). I thought it is hard to find longitude & latitude, so decided to download & use shape file for Tableau and KMZ file for Qlik Sense to create a map on the dashboard. You can download it on the website below.
+
+URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 
 
 ### Qlik Sense Dashboard
+
 
 
 ### Tableau Dashboard
