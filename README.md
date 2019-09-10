@@ -66,8 +66,10 @@ URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 
 
 ### Qlik Sense Dashboard
+- Summary
 ![Summary](QlikSense_Dashboard/QlikSense_Summary.png)
-
+- Amount Details
+![Amount_Details](QlikSense_Dashboard/QlikSense_Amount_Details.png)
 
 ### Tableau Dashboard
 Link: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
