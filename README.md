@@ -6,11 +6,13 @@
 I would love to hear any opinion about my analysis! Please message me via LinkedIn if you have any questions :)!
 
 
+
 ### Summary 
 The goals to create Tableau dashboard is to help people understand about key statistics and insights about daily trips of taxis in New York. The questions which my Qlik Sense & Tableau dashboard tried to answer are as follows.
 
 1)	Understand the current status by basic statistics
 2)	Determine busy hours and places 
+
 
 
 ### Dataset Description
@@ -33,6 +35,7 @@ The period of the dataset I used is from 2017-2018 and there are 2 types of taxi
 URL: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 
+
 ### Data Planned to Use
 Because every single monthly data has millions of rows, I thought better to have some calculations grouped the data by Timestamp to hour and location data. To do this, I picked up which data is needed to be shown on Dashboards as follows.
 
@@ -51,9 +54,11 @@ Because every single monthly data has millions of rows, I thought better to have
 This is groupbed by Hour, PULocationID
 
 
+
 ### Calculation by Using Pyspark 
 Since it has over millions rows in a file, calculation by Python was very slow. Therefore, I used Pyspark for calculation so that it will speed up the calculation.
 The python script for this is attached with the name, "PysparkCalculation.py".
+
 
 
 ### Extract Latitude & Longitude from the Location CSV File 
@@ -63,6 +68,7 @@ Script attached: GeoCodingTaxi.py
 However, some cities returned wrong latitude & longitude information due to the error caused by city name (City separated with south & north etc). I thought it is hard to find longitude & latitude, so decided to download & use shape file for Tableau and KMZ file for Qlik Sense to create a map on the dashboard. You can download it on the website below.
 
 URL: https://geo.nyu.edu/catalog/nyu-2451-36743
+
 
 
 ### Qlik Sense Dashboard
@@ -75,11 +81,17 @@ URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 - Map Details
 ![Map](QlikSense_Dashboard/QlikSense_Map.PNG)
 
+
+
 ### Tableau Dashboard
 - Summary
 ![Summary](Tableau_Dashboard/Tableau_Summary.PNG)
 Link: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
 
 
+
 ### Challenge Remained
-I realized that even though I can determine where 
+Through the dashboards, we can now understand the current status of each zone per hour and determine busy hours and places. Therefore, taxi drivers will be able to go to the zone having a high possibility to pick up passengers at the certain time based on the historical data from 2017 to 2018. 
+However, it doesn't show that how many taxis can be there in that specific zone at the certain time, so it is hard to say that picking up passengers is easier than other places. For example, what if there are many passengers but at the same time, there are also many taxis waiting for?? 
+Hope I can find the data offering vacant taxis' location per hour so that I can provide more insights from the dashboards!
+(Uber, Grab, Japan Taxi, Kakao Taxi, and others, please provide it for me :) !!)
