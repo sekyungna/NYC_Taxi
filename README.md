@@ -57,7 +57,8 @@ The python script for this is attached with the name, "PysparkCalculationScript.
 
 
 ### Extract Latitude & Longitude from the Location CSV File 
-Geocode is used for extracting latitude & longitude data from the zone.csv.
+At first, I used Geocode for extracting latitude & longitude data from the zone.csv.
+Script: 
 
 
 ### Qlik Sense Dashboard
