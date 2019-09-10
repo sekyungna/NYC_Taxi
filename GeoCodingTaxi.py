@@ -1,6 +1,5 @@
 """
-Created on Wed Aug 14 16:13:45 2019
-
+Script to get the longitude & latitude data from the city name
 @author: nasekyung
 """
 
@@ -36,7 +35,7 @@ def GeoCoding(path):
     return Geolist
     
 
-GeoInfoList = GeoCoding("/Users/nasekyung/Downloads/taxi+_zone_lookup.csv")
+GeoInfoList = GeoCoding("your_filepath/taxi+_zone_lookup.csv")
 test_GeoInfo = pd.DataFrame(GeoInfoList, columns = ["Index", "Latitude", "Longtitude"])
 
-test_GeoInfo.to_csv("/Users/nasekyung/Desktop/GeoInfo_test3.csv")
+test_GeoInfo.to_csv("your_filepath/GeoInfo_test3.csv")
