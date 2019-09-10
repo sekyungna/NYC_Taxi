@@ -53,7 +53,7 @@ This is groupbed by Hour, PULocationID
 
 ### Calculation by Using Pyspark 
 Since it has over millions rows in a file, calculation by Python was very slow. Therefore, I used Pyspark for calculation so that it will speed up the calculation.
-The python script for this is attached with the name, "PysparkCalculationScript.py".
+The python script for this is attached with the name, "PysparkCalculation.py".
 
 
 ### Extract Latitude & Longitude from the Location CSV File 
