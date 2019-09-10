@@ -72,6 +72,8 @@ URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 ![Amount_Details](QlikSense_Dashboard/QlikSense_Amount_Details.png)
 - Trip Details
 ![Trip_Details](QlikSense_Dashboard/QlikSense_Trip_Details.png)
+- Map Details
+![Map]()
 
 ### Tableau Dashboard
 - Summary
