@@ -74,6 +74,8 @@ URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 ![Trip_Details](QlikSense_Dashboard/QlikSense_Trip_Details.png)
 
 ### Tableau Dashboard
+- Summary
+![Summary](Tableau_Dashboard/Tableau_Summary.PNG)
 Link: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
 
 
